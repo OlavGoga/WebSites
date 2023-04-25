@@ -1,0 +1,87 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+	background-image: url(1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.menu{
+	height: 30px;
+	width: 50%;
+	margin: 30px;
+	padding: 60px;
+	font-size: 150%;
+	font-family: Impact, fantasy;
+	text-indent: 40px;
+	text-align: center;
+	
+}
+
+.menu ul{
+	top: 20%;
+	left: 14%;
+	transform: translate(-20%/-14%);
+	position: absolute;
+	color: rgb(244, 67, 89);
+}
+
+.menu ul li{
+	display: inline-block;
+	margin-bottom: 20px
+}
+
+.login-box{
+	font-size: 120%;
+	top: 60%;
+	left: 50%;
+	transform: translate(-60%/-50%);
+	position: absolute;
+	
+	
+}
+.textbox {
+	border: none;
+	background: none;
+	overflow: hidden;
+	line-height: 1px solid #0000FF;
+	margin: 8px;
+	padding: 9px;
+	font-family: Impact, fantasy;
+
+}
+.textbox input{
+	height: 30%;
+	background: none;
+	overflow: hidden;
+	font-size: 120%;
+	font-family: impact, fantasy;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #808080;
+
+
+}
+.btn{
+	height: 22%;
+	font-size: 110%;
+	font-family: impact, fantasy;
+	background: none;
+	top: 110%;
+	left: 20%;
+	transform: translate(-110%/-30%);
+	position: absolute;
+	background: none;
+	color: rgb(244, 77, 77);
+}
+h1{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%/-50%);
+	position: absolute;
+	font-family: Impact, fantasy;
+	color: rgb(244, 77, 77);
+}
+.placeholder{
+	color: rgb(244, 77, 77);
+}
